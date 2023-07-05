@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('advance_django', '0002_rename_name_comments_title'),
+        ('advance__django', '0002_rename_name_comments_title'),
     ]
 
     operations = [

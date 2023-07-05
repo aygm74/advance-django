@@ -1,7 +1,7 @@
 altgraph==0.17.2
 asgiref==3.5.2
 auto-py-to-exe==2.26.1
-backports.zoneinfo==0.2.1
+backports.zoneinfo;python_version<"3.9"
 beautifulsoup4==4.11.1
 bottle==0.12.23
 bottle-websocket==0.2.9

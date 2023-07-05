@@ -8,7 +8,7 @@ from rest_framework.generics import GenericAPIView,ListAPIView,ListCreateAPIView
 from rest_framework.mixins import ListModelMixin,CreateModelMixin,RetrieveModelMixin,DestroyModelMixin,UpdateModelMixin
 from rest_framework import viewsets
 
-from advance_django.models import Category, Comments
+from advance__django.models import Category, Comments
 
 """function based view""" 
 
