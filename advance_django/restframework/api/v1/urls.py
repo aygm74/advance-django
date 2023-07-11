@@ -1,6 +1,6 @@
 from django.urls import include, path
 # from .views import PostListApi,PostDetailApi,
-from .views import PostViewSet, CategoryViewSet
+# from .views import PostViewSet, CategoryViewSet
 from rest_framework.routers import DefaultRouter
 
 # from rest_framework.documentation import include_docs_urls
@@ -8,8 +8,8 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 
-router.register('post', PostViewSet, basename='post')  # post-detail
-router.register('category', CategoryViewSet, basename='category')
+# router.register('post', PostViewSet, basename='post')  # post-detail
+# router.register('category', CategoryViewSet, basename='category')
 
 # urlpatterns=router.urls
 
