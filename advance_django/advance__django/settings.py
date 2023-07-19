@@ -36,9 +36,12 @@ INSTALLED_APPS = ['django.contrib.admin',
                   'django.contrib.staticfiles',
                   #Ourapp
                   'rest_framework',
-                  'restframework',
+                  'posts',
                   'advance__django',
                   'users',
+
+                  #installation
+                  'drf_yasg',
                   ]
 # CUSTOM USER MODEL
 AUTH_USER_MODEL = "users.CustomUser"

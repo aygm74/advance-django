@@ -5,5 +5,5 @@ from .views import api_rest_framework
 
 
 urlpatterns = [
-    path('post',api_rest_framework,name='restframework'),
+    path('post',api_rest_framework,name='posts'),
 ]
