@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from advance__django.models import Comments, Category
+from ...models import Posts, Category
 
 
 # class PostSerializer(serializers.Serializer):
@@ -18,7 +18,7 @@ class PostSerializer(serializers.ModelSerializer):
     category = serializers.SlugRelatedField(slug_field='name', read_only=True)
 
     class Meta:
-        model = Comments
+        model = Posts
         fields = ['title', 'relative_url', 'absolute_url', 'email', 'description', 'snippet', 'category']
 
     def get_absolute_url(self, obj):

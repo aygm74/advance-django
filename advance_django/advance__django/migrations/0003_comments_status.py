@@ -11,7 +11,7 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.AddField(
-            model_name='comments',
+            model_name='posts',
             name='status',
             field=models.BooleanField(default=True),
         ),

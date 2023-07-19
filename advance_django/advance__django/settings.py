@@ -36,8 +36,12 @@ INSTALLED_APPS = ['django.contrib.admin',
                   'django.contrib.staticfiles',
                   #Ourapp
                   'rest_framework',
+                  'posts',
                   'advance__django',
                   'users',
+
+                  #installation
+                  'drf_yasg',
                   ]
 # CUSTOM USER MODEL
 AUTH_USER_MODEL = "users.CustomUser"
@@ -85,6 +89,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
+
+STATICFILES_DIRS = [BASE_DIR / 'static',]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
